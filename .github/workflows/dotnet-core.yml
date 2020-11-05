@@ -2,13 +2,12 @@ name: .NET Core
 
 env:
   poi_path: apis/poi/**
-  
-
+ 
 on:
   push:
     branches: [ master ]
     paths: 
-      - $poi_path
+      - apis/poi/**
       - .github/workflows/poi.yml
   pull_request:
     branches: [ master ]
