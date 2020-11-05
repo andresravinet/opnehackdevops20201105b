@@ -33,7 +33,7 @@ ingress:
       paths:
       - path: /api/poi
         serviceName: api-poi-svc
-        servicePort: 80
+        servicePort: 81
       - path: /api/healthcheck/poi
         serviceName: api-poi-svc
         servicePort: 80
