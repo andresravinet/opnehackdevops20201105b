@@ -11,7 +11,7 @@ The team environment consists of the following:
 * Azure Container Service (AKS) cluster which has four APIs deployed:
 
   * POI (Trip Points of Interest) - CRUD API written in .Net Core 2 for points of interest on trips
-  * Trips - CRUD open API written in golang for trips connected to the client application
+  * Trips - CRUD open API written in golang 1.11 for trips connected to the client application
   * UserProfile - CRUD open API written in Node.JS for the users of the client application
     > Note:PATCH/POST operations not functional
   * User-Java - API written in Java with POST and PATCH routes plus swagger docs routes for the users of the client application.
@@ -26,7 +26,7 @@ To understand each of the components above in more detail, please visit the read
 It is useful but not required to have a basic knowledge of the following topics:
 
 * Kubernetes
-* VSTS or Jenkins
+* Azure DevOps (formally VSTS) or Jenkins
 
 ## Resources
 
