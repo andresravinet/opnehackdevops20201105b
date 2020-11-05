@@ -12,7 +12,7 @@ on:
   pull_request:
     branches: [ master ]
     paths:
-      - $poi_path
+      - apis/poi/**
       - .github/workflows/poi.yml
 jobs:
   build:
