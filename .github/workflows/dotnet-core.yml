@@ -26,7 +26,7 @@ jobs:
         dotnet-version: 3.1.301
 
     - name: Add Code Coverage Tools
-      working-directory: api/poi/tests/UnitTests
+      working-directory: apis/poi/tests/UnitTests
       run: dotnet add package coverlet.msbuild
 
     - name: Install dependencies
